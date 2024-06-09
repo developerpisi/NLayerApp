@@ -1,0 +1,17 @@
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/bin/Debug/net6.0/NLayer.Service.deps.json
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/bin/Debug/net6.0/NLayer.Service.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/bin/Debug/net6.0/NLayer.Service.pdb
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/bin/Debug/net6.0/NLayer.Core.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/bin/Debug/net6.0/NLayer.Repository.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/bin/Debug/net6.0/NLayer.Repository.pdb
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/bin/Debug/net6.0/NLayer.Core.pdb
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/obj/Debug/net6.0/NLayer.Service.csproj.AssemblyReference.cache
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/obj/Debug/net6.0/NLayer.Service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/obj/Debug/net6.0/NLayer.Service.AssemblyInfoInputs.cache
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/obj/Debug/net6.0/NLayer.Service.AssemblyInfo.cs
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/obj/Debug/net6.0/NLayer.Service.csproj.CoreCompileInputs.cache
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/obj/Debug/net6.0/NLayer.Service.csproj.CopyComplete
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/obj/Debug/net6.0/NLayer.Service.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/obj/Debug/net6.0/refint/NLayer.Service.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/obj/Debug/net6.0/NLayer.Service.pdb
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/obj/Debug/net6.0/ref/NLayer.Service.dll

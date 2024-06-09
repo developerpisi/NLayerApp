@@ -1,0 +1,12 @@
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/bin/Debug/net6.0/NLayer.Caching.deps.json
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/bin/Debug/net6.0/NLayer.Caching.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/bin/Debug/net6.0/NLayer.Caching.pdb
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/obj/Debug/net6.0/NLayer.Caching.csproj.AssemblyReference.cache
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/obj/Debug/net6.0/NLayer.Caching.GeneratedMSBuildEditorConfig.editorconfig
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/obj/Debug/net6.0/NLayer.Caching.AssemblyInfoInputs.cache
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/obj/Debug/net6.0/NLayer.Caching.AssemblyInfo.cs
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/obj/Debug/net6.0/NLayer.Caching.csproj.CoreCompileInputs.cache
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/obj/Debug/net6.0/NLayer.Caching.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/obj/Debug/net6.0/refint/NLayer.Caching.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/obj/Debug/net6.0/NLayer.Caching.pdb
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/obj/Debug/net6.0/ref/NLayer.Caching.dll
