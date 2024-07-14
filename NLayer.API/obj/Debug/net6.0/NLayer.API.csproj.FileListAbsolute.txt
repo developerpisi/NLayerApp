@@ -49,3 +49,5 @@
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.API/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.API/bin/Debug/net6.0/Humanizer.dll
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.API/bin/Debug/net6.0/AutoMapper.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

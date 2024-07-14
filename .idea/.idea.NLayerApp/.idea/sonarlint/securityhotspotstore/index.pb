@@ -1,10 +1,4 @@
 
-M
-NLayer.Core/ProductFeature.cs,f/d/fd85b52015f9f98122302d6657ce054fd985e5e2
-G
-NLayer.Core/Category.cs,0/5/056b9bc41c387324191ac9179f4895619276edda
-F
-NLayer.Core/Product.cs,e/7/e7fc9661df43c4bec949fc619628db2b327b9608
 Q
 !NLayer.Repository/AppDbContext.cs,3/1/31726f55f88e3fad38af3980fcd9863167408e53
 i
@@ -15,8 +9,6 @@ o
 ?NLayer.Repository/Configurations/ProductFeatureConfiguration.cs,5/d/5d1dd3bc2e11986b3a9b776de1cbb455a0137908
 W
 'NLayer.Repository/Seeds/CategorySeed.cs,0/4/04aa7d0684d2520ede52983370df4f97c279e407
-I
-NLayer.Core/BaseEntity.cs,a/1/a1f83554a699faa2ec3a48793b1b3dbbdeaeb6d9
 V
 &NLayer.Repository/Seeds/ProductSeed.cs,c/a/ca020cf0b47caa8ce3be99bef0d7ce0879636f9d
 P
@@ -241,3 +233,25 @@ T
 $NLayer.Caching/NLayer.Caching.csproj,e/2/e2f3e6eb67af8f9a90fb51733f2b63dc9e2cd5c4
 X
 (NLayer.Repository/AppDbContextFactory.cs,8/5/8567ac3dba5faacdd8925c01964f560c90428fd3
+R
+"NLayer.Service/Services/Service.cs,b/7/b7defa91ef3ba577108bd6cfda8fd21e4e38da71
+N
+NLayer.Core/Models/Category.cs,a/f/afb57eedb6cd0254a66cd147edb27e523f251eaf
+M
+NLayer.Core/Models/Product.cs,5/7/579aabfbd6ad524b75d2e299c040a24419447342
+P
+ NLayer.Core/Models/BaseEntity.cs,e/0/e050f59c6a5818ae55a6ab4fd95824c0e34aa1ca
+K
+NLayer.Core/DTOs/BaseDto.cs,9/2/92288ca81bf8d4caf33ef75cdd2d939770ab6a52
+O
+NLayer.Core/DTOs/CategoryDto.cs,6/f/6fa08f87f5b054776fe4f3eb1184f2775c309804
+T
+$NLayer.Core/Models/ProductFeature.cs,2/0/2017881039a686562fad92f77bdd67cfb52825ba
+T
+$NLayer.Service/Mapping/MapProfile.cs,b/8/b8934b0df7d87782053c9bf23f6629a9864c48eb
+U
+%NLayer.Core/DTOs/ProductFeatureDto.cs,b/a/bab318e29576e38c0ee0c24afda8d2bc5bace3c1
+N
+NLayer.Core/DTOs/ProductDto.cs,b/5/b553370097ca6df61453bc288a5b1a066d41e055
+T
+$NLayer.Core/DTOs/ProductUpdateDto.cs,b/3/b3c46bdd7fd2b1907391c97680288cf15505eb27

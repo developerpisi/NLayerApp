@@ -36,3 +36,16 @@
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/MySqlConnector.dll
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Json.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Physical.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/System.Text.Json.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/AutoMapper.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

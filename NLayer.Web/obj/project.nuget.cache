@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ycpWVGKNw0bxFPLi+ygnnTbNi/c/pWTkVpBs6zy373lUXWAggPcY4GoxBLnx8FjVzmMZVQSCM/aKadkIZv8KZQ==",
+  "dgSpecHash": "RisXWYK1p7K4W5p3vIpxwtqY8SdYbETgu430BxZRnWAakWbPm2hGurF/PjRgjYRQktdhjTFtzXnJ2fkk3+IfNw==",
   "success": true,
   "projectFilePath": "/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/NLayer.Web.csproj",
   "expectedPackageFiles": [
+    "/Users/senaserdar/.nuget/packages/automapper/11.0.0/automapper.11.0.0.nupkg.sha512",
+    "/Users/senaserdar/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "/Users/senaserdar/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/senaserdar/.nuget/packages/microsoft.entityframeworkcore/6.0.1/microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "/Users/senaserdar/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.1/microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
     "/Users/senaserdar/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.1/microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",
