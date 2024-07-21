@@ -255,3 +255,9 @@ N
 NLayer.Core/DTOs/ProductDto.cs,b/5/b553370097ca6df61453bc288a5b1a066d41e055
 T
 $NLayer.Core/DTOs/ProductUpdateDto.cs,b/3/b3c46bdd7fd2b1907391c97680288cf15505eb27
+U
+%NLayer.Core/DTOs/CustomResponseDto.cs,b/b/bbb87404d55ade8cd6f709c103be2237659a11a2
+^
+.NLayer.API/Controllers/CustomBaseController.cs,4/7/47b43d11a53ac8b836c715582ba6000d6dd41832
+[
++NLayer.API/Controllers/ProductController.cs,f/7/f7b36a01d9ca1d979ff0d55f71053dd4d28b3a1e
