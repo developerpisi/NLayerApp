@@ -21,6 +21,9 @@ internal class Program
         builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
         builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
         builder.Services.AddAutoMapper(typeof(MapProfile));
+        builder.Services.AddScoped<IProductService, ProductService>();
+        builder.Services.AddScoped<IProductRepository, ProductRepository>();
+
         builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseMySql(
                 builder.Configuration.GetConnectionString("DefaultConnection"),
