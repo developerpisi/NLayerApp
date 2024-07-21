@@ -18,9 +18,6 @@ public class ProductsController : CustomBaseController
         _mapper = mapper;
         _productService = productService;
     }
-  
-    /// Get api/Products/GetProductWithCategory
- 
     [HttpGet("[action]")]
     public async Task<IActionResult> GetProductWithCategory()
     {
