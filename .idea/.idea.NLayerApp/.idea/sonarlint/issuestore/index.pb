@@ -215,8 +215,6 @@ L
 NLayer.API/NLayer.API.csproj,8/6/86811ec62386bd40f80355d45bf5e3b45203be19
 E
 NLayer.API/Program.cs,8/b/8b71f18be4d0ff18094916234c38b7ea6f649635
-M
-NLayer.API/WeatherForecast.cs,7/2/720cd6f3fb41750c408d96bbb44acd3e11a86a9b
 €
 PNLayer.API/obj/Debug/net6.0/NLayer.API.GeneratedMSBuildEditorConfig.editorconfig,e/2/e2ff84fd7cd484b075a65367227ae99905791572
 f
@@ -229,8 +227,6 @@ O
 NLayer.Web/wwwroot/css/site.css,3/f/3f23f3d95df70e37f93aca4a5112bfd8de8b9885
 X
 (NLayer.Web/Controllers/HomeController.cs,a/5/a52eda87093dfabe35b89fa91c791b41428e985e
-c
-3NLayer.API/Controllers/WeatherForecastController.cs,b/0/b0451eb8dd05d3c65fced81dbd8b2c5011bed93a
 X
 (NLayer.Repository/AppDbContextFactory.cs,8/5/8567ac3dba5faacdd8925c01964f560c90428fd3
 R
@@ -259,5 +255,15 @@ U
 %NLayer.Core/DTOs/CustomResponseDto.cs,b/b/bbb87404d55ade8cd6f709c103be2237659a11a2
 ^
 .NLayer.API/Controllers/CustomBaseController.cs,4/7/47b43d11a53ac8b836c715582ba6000d6dd41832
-[
-+NLayer.API/Controllers/ProductController.cs,f/7/f7b36a01d9ca1d979ff0d55f71053dd4d28b3a1e
+W
+'NLayer.Core/Services/IProductService.cs,a/1/a14ca0c4a7e61195896a6309c8f715f94f1853f3
+Z
+*NLayer.Core/DTOs/ProductWithCategoryDto.cs,9/a/9aa1f4e07237aa807caeee9b32492eb3b4206950
+Y
+)NLayer.Service/Services/ProductService.cs,7/0/70a24f3d76e4b53c1412ac1cc2fb93f038cf35c2
+^
+.NLayer.Core/Repositories/IProductRepository.cs,5/d/5daf565ea05f35ea3e1af6f016fcad9f441d6d8c
+c
+3NLayer.Repository/Repositories/ProductRepository.cs,6/4/64b150e7d37eb5eab260430e17efcfd66408516a
+\
+,NLayer.API/Controllers/ProductsController.cs,a/c/ac3480e695f8ed1c5dca4d4be6d40e141fd50845
