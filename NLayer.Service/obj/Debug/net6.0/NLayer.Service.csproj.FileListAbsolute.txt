@@ -12,6 +12,6 @@
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/obj/Debug/net6.0/NLayer.Service.csproj.CoreCompileInputs.cache
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/obj/Debug/net6.0/NLayer.Service.csproj.CopyComplete
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/obj/Debug/net6.0/NLayer.Service.dll
-/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/obj/Debug/net6.0/refint/NLayer.Service.dll
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/obj/Debug/net6.0/NLayer.Service.pdb
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/obj/Debug/net6.0/ref/NLayer.Service.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/bin/Debug/net6.0/ref/NLayer.Service.dll
