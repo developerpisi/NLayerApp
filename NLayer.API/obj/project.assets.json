@@ -731,6 +731,20 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "NLayer.Caching/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NLayer.Core": "1.0.0",
+          "NLayer.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NLayer.Caching.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NLayer.Caching.dll": {}
+        }
+      },
       "NLayer.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1855,6 +1869,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "NLayer.Caching/1.0.0": {
+      "type": "project",
+      "path": "../NLayer.Caching/NLayer.Caching.csproj",
+      "msbuildProject": "../NLayer.Caching/NLayer.Caching.csproj"
+    },
     "NLayer.Core/1.0.0": {
       "type": "project",
       "path": "../NLayer.Core/NLayer.Core.csproj",
@@ -1876,6 +1895,7 @@
       "Autofac.Extensions.DependencyInjection >= 7.2.0",
       "Microsoft.EntityFrameworkCore >= 6.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.1",
+      "NLayer.Caching >= 1.0.0",
       "NLayer.Service >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
@@ -1906,6 +1926,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/NLayer.Caching.csproj": {
+              "projectPath": "/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/NLayer.Caching.csproj"
+            },
             "/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/NLayer.Service.csproj": {
               "projectPath": "/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/NLayer.Service.csproj"
             }

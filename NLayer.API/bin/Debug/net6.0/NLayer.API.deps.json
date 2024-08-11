@@ -11,6 +11,7 @@
           "Autofac.Extensions.DependencyInjection": "7.2.0",
           "Microsoft.EntityFrameworkCore": "6.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.1",
+          "NLayer.Caching": "1.0.0",
           "NLayer.Service": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -403,6 +404,15 @@
           }
         }
       },
+      "NLayer.Caching/1.0.0": {
+        "dependencies": {
+          "NLayer.Core": "1.0.0",
+          "NLayer.Service": "1.0.0"
+        },
+        "runtime": {
+          "NLayer.Caching.dll": {}
+        }
+      },
       "NLayer.Core/1.0.0": {
         "runtime": {
           "NLayer.Core.dll": {}
@@ -738,6 +748,11 @@
       "sha512": "sha512-OdrZO2WjkiEG6ajEFRABTRCi/wuXQPxeV6g8xvUJqdxMvvuCCEk86zPla8UiIQJz3durtUEbNyY/3lIhS0yZvQ==",
       "path": "system.text.json/8.0.0",
       "hashPath": "system.text.json.8.0.0.nupkg.sha512"
+    },
+    "NLayer.Caching/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "NLayer.Core/1.0.0": {
       "type": "project",

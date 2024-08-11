@@ -56,3 +56,5 @@
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.API/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.API/bin/Debug/net6.0/Autofac.dll
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.API/bin/Debug/net6.0/Autofac.Extensions.DependencyInjection.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.API/bin/Debug/net6.0/NLayer.Caching.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.API/bin/Debug/net6.0/NLayer.Caching.pdb
