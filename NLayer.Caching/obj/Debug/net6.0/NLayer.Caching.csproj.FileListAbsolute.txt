@@ -10,3 +10,10 @@
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/obj/Debug/net6.0/NLayer.Caching.pdb
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/obj/Debug/net6.0/ref/NLayer.Caching.dll
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/bin/Debug/net6.0/ref/NLayer.Caching.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/bin/Debug/net6.0/NLayer.Core.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/bin/Debug/net6.0/NLayer.Repository.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/bin/Debug/net6.0/NLayer.Service.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/bin/Debug/net6.0/NLayer.Core.pdb
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/bin/Debug/net6.0/NLayer.Service.pdb
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/bin/Debug/net6.0/NLayer.Repository.pdb
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Caching/obj/Debug/net6.0/NLayer.Caching.csproj.CopyComplete

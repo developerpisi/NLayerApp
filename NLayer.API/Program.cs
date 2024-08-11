@@ -20,6 +20,7 @@ internal class Program
         builder.Services.Configure<ApiBehaviorOptions>(options => options.SuppressModelStateInvalidFilter=true);
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
+        builder.Services.AddMemoryCache();
         builder.Services.AddScoped(typeof(NotFoundFilter<>));
         builder.Services.AddAutoMapper(typeof(MapProfile));
         builder.Services.AddDbContext<AppDbContext>(options =>
