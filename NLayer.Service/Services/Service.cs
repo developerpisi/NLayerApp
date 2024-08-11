@@ -38,9 +38,9 @@ public class Service<T> : IService<T> where T : class
         return _genericRepository.Where(expression);
     }
 
-    public Task<bool> AnyAsync(Expression<Func<T, bool>> expression)
+    public async Task<bool> AnyAsync(Expression<Func<T, bool>> expression)
     {
-        throw new NotImplementedException();
+        return await _genericRepository.AnyAsync(expression);
     }
 
     public async Task<T>AddAsync(T entity)
