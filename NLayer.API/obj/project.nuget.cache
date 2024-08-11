@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "aH3MBeXm/M47VXdqTtiEBma1qZiuj+FxRFoFczM8XhcRiVQfervIAj6BBnKBNeoY0578yyJZolVJlTUq9EwqcQ==",
+  "dgSpecHash": "I3He9qMzDVNz5Ngw3BL1p2gU3peD+uQqYAneFyi2p5Jlh0p1a7POYzVDRjQ/weTQR1kIVI+87UGB173RX2TmNQ==",
   "success": true,
   "projectFilePath": "/Users/senaserdar/RiderProjects/NLayerApp/NLayer.API/NLayer.API.csproj",
   "expectedPackageFiles": [
+    "/Users/senaserdar/.nuget/packages/autofac/6.0.0/autofac.6.0.0.nupkg.sha512",
+    "/Users/senaserdar/.nuget/packages/autofac.extensions.dependencyinjection/7.2.0/autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
     "/Users/senaserdar/.nuget/packages/automapper/11.0.0/automapper.11.0.0.nupkg.sha512",
     "/Users/senaserdar/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/Users/senaserdar/.nuget/packages/fluentvalidation/10.3.6/fluentvalidation.10.3.6.nupkg.sha512",
