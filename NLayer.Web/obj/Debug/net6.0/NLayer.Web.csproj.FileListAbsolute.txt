@@ -49,3 +49,7 @@
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/AutoMapper.dll
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/ref/NLayer.Web.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/FluentValidation.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Web/obj/Debug/net6.0/NLayer.Web.MvcApplicationPartsAssemblyInfo.cs

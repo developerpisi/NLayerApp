@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "/31/ReL9d9RIVpS31+sVF3xWlwF0zbXW2/+clj9pb4OiOTJjsc/OjHKw9zmGAQdoceJKoktarxF00EA1uq9J4A==",
+  "dgSpecHash": "kbaJmO8EEhHL7VuHAUC+nBtpB0iE3OtE5dV8EEk3hQMydltSNRpRg0Yy6JnDXUS5hwcCaJl2bgA+H/YmGJlSUg==",
   "success": true,
   "projectFilePath": "/Users/senaserdar/RiderProjects/NLayerApp/NLayer.Service/NLayer.Service.csproj",
   "expectedPackageFiles": [
     "/Users/senaserdar/.nuget/packages/automapper/11.0.0/automapper.11.0.0.nupkg.sha512",
     "/Users/senaserdar/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "/Users/senaserdar/.nuget/packages/fluentvalidation/10.3.6/fluentvalidation.10.3.6.nupkg.sha512",
+    "/Users/senaserdar/.nuget/packages/fluentvalidation.aspnetcore/10.3.6/fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",
+    "/Users/senaserdar/.nuget/packages/fluentvalidation.dependencyinjectionextensions/10.3.6/fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512",
     "/Users/senaserdar/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/senaserdar/.nuget/packages/microsoft.entityframeworkcore/6.0.1/microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "/Users/senaserdar/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.1/microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",

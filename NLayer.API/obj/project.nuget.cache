@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "DDfUdevcId+pV3LPanQ8PTogFFKkQWFcEZY7Sl6jRP1C4+iolEgp36ZT7XonXlmFixB2Cp/2UB1VS+mMuAdppA==",
+  "dgSpecHash": "aH3MBeXm/M47VXdqTtiEBma1qZiuj+FxRFoFczM8XhcRiVQfervIAj6BBnKBNeoY0578yyJZolVJlTUq9EwqcQ==",
   "success": true,
   "projectFilePath": "/Users/senaserdar/RiderProjects/NLayerApp/NLayer.API/NLayer.API.csproj",
   "expectedPackageFiles": [
     "/Users/senaserdar/.nuget/packages/automapper/11.0.0/automapper.11.0.0.nupkg.sha512",
     "/Users/senaserdar/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "/Users/senaserdar/.nuget/packages/fluentvalidation/10.3.6/fluentvalidation.10.3.6.nupkg.sha512",
+    "/Users/senaserdar/.nuget/packages/fluentvalidation.aspnetcore/10.3.6/fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",
+    "/Users/senaserdar/.nuget/packages/fluentvalidation.dependencyinjectionextensions/10.3.6/fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512",
     "/Users/senaserdar/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/senaserdar/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/senaserdar/.nuget/packages/microsoft.entityframeworkcore/6.0.1/microsoft.entityframeworkcore.6.0.1.nupkg.sha512",

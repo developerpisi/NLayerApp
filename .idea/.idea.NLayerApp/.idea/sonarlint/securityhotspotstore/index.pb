@@ -273,3 +273,11 @@ X
 (NLayer.Core/Services/ICategoryService.cs,4/b/4b6f7e2b7fb9d565bd8a09e5bd95608e891f434e
 ^
 .NLayer.API/Controllers/CategoriesController.cs,6/0/6076c3f42436d4c46c59c565b5c6426631009aa3
+Ž
+^NLayer.Repository/obj/Debug/net6.0/NLayer.Repository.GeneratedMSBuildEditorConfig.editorconfig,2/e/2e85f006623942bbe14f09b603b9ecda9429f595
+t
+DNLayer.Repository/obj/Debug/net6.0/NLayer.Repository.AssemblyInfo.cs,8/9/8923fa66b4d55917ba04203196e6cbaaa2fd2c2e
+`
+0NLayer.Service/Validation/ProductDtoValidator.cs,1/d/1d3a3329b0bd9e94fb3cfffadc2928a0bc60c2f7
+\
+,NLayer.API/Filter/ValidateFilterAttribute.cs,9/a/9a10dc4ac65851772f086676a697e82c4566e017
