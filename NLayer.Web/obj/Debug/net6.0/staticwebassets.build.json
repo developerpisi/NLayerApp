@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "lzmTsJUKcatZ3IgO1VoCUW+SVXPnNoem7AEXJWio2KY=",
+  "Hash": "W83z6fdXqBMPwRn+sbYktQ0QeumaDYeW8iH2zvJJlKg=",
   "Source": "NLayer.Web",
   "BasePath": "_content/NLayer.Web",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "/Users/senaserdar/RiderProjects/NLayerApp/NLayer.API/NLayer.API.csproj",
-      "Version": 2,
-      "Source": "NLayer.API",
-      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
       "Name": "NLayer.Web/wwwroot",

@@ -1,10 +1,7 @@
-using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using NLayer.API.Filters;
 using NLayer.Core;
 using NLayer.Core.DTOs;
-using NLayer.Core.Services;
 using NLayer.Web.Services;
 
 namespace NLayer.Web.Controllers
