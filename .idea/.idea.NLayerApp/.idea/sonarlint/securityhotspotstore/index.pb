@@ -289,8 +289,6 @@ c
 3NLayer.API/Middlewares/UseCustomExceptionHandler.cs,8/e/8ef4f51cc85a7ba4ca515f530ca8b43eb3d8e63d
 W
 'NLayer.API/Modules/RepoServiceModule.cs,c/7/c7f7b5f2fe6130a9de43fc00a8a7c181b4c76482
-f
-6NLayer.Service/Services/ProductServiceWithNoCaching.cs,8/6/868261bdf82f69472982fd3a4a98bb840b41ae5b
 [
 +NLayer.Caching/ProductServiceWithCaching.cs,a/4/a41defeaa00cfde25f054a777efc8ee60640d640
 \
@@ -309,3 +307,9 @@ Y
 )NLayer.Web/Services/CategoryApiService.cs,5/a/5ae072c0298f0d37d015068aac2b468322dece32
 X
 (NLayer.Web/Services/ProductApiService.cs,8/b/8b219508aa7cd7e3c8c1b497291e85b0b426ec5e
+R
+"NLayer.Core/DTOs/ErrorViewModel.cs,a/2/a2b3e069d095bc09609113522be1c31d0f33baf1
+L
+NLayer.Web/NotFoundFilter.cs,7/a/7ad8b2728df00898290790e660b01c4fe5cee413
+Y
+)NLayer.Service/Services/ProductService.cs,7/0/70a24f3d76e4b53c1412ac1cc2fb93f038cf35c2

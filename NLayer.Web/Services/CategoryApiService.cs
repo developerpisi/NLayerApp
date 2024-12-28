@@ -8,13 +8,7 @@ namespace NLayer.Web.Services
 
         public CategoryApiService(HttpClient httpClient)
         {
-            var handler = new HttpClientHandler();
-            handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
-
-            _httpClient = new HttpClient(handler)
-            {
-                BaseAddress = httpClient.BaseAddress
-            };
+            _httpClient = httpClient;
         }
 
         public async Task<List<CategoryDto>> GetAllAsync()

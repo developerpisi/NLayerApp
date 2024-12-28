@@ -27,11 +27,7 @@ namespace NLayer.Web.Controllers
         public async Task<IActionResult> Save()
         {
             var categoriesDto = await _categoryApiService.GetAllAsync();
-
-           
-
             ViewBag.categories = new SelectList(categoriesDto, "Id", "Name");
-
             return View();
         }
 
@@ -39,69 +35,69 @@ namespace NLayer.Web.Controllers
         public async Task<IActionResult> Save(ProductDto productDto)
 
         {
-
-
             if (ModelState.IsValid)
             {
-
                 await _productApiService.SaveAsync(productDto);
-
-               
                 return RedirectToAction(nameof(Index));
             }
 
             var categoriesDto = await _categoryApiService.GetAllAsync();
-
-           
 
             ViewBag.categories = new SelectList(categoriesDto, "Id", "Name");
             return View();
         }
 
-
         [ServiceFilter(typeof(NotFoundFilter<Product>))]
         public async Task<IActionResult> Update(int id)
         {
             var product = await _productApiService.GetByIdAsync(id);
-
-
             var categoriesDto = await _categoryApiService.GetAllAsync();
-
-            
-
             ViewBag.categories = new SelectList(categoriesDto, "Id", "Name",product.CategoryId);
-
             return View(product);
-
         }
+        //
+        // [HttpPost]
+        // public async Task<IActionResult> Update(ProductDto productDto)
+        // {
+        //     if(ModelState.IsValid)
+        //     {
+        //         await _productApiService.UpdateAsync(productDto); 
+        //         return RedirectToAction(nameof(Index));
+        //     }
+        //
+        //     var categoriesDto = await  _categoryApiService.GetAllAsync();
+        //     ViewBag.categories = new SelectList(categoriesDto, "Id", "Name", productDto.CategoryId);
+        //     return View(productDto);
+        // }
+        //
         [HttpPost]
         public async Task<IActionResult> Update(ProductDto productDto)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
+                // Güncelleme işlemini API'ye gönder
+                var updatedProduct = await _productApiService.UpdateAsync(productDto);
 
-                await _productApiService.UpdateAsync(productDto); 
+                // Eğer güncelleme başarılıysa, Index sayfasına yönlendir
+                if (updatedProduct != null)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
 
-                return RedirectToAction(nameof(Index));
-
+                // Hata durumunda güncelleme sayfasını tekrar göster
+                ModelState.AddModelError("", "Update failed.");
             }
 
-            var categoriesDto = await  _categoryApiService.GetAllAsync();
-
-         
-
+            // Eğer ModelState geçerli değilse, kategori listelerini tekrar al ve sayfayı yeniden yükle
+            var categoriesDto = await _categoryApiService.GetAllAsync();
             ViewBag.categories = new SelectList(categoriesDto, "Id", "Name", productDto.CategoryId);
-
             return View(productDto);
-
         }
-
-
-        public async Task<IActionResult>  Remove(int id)
+        
+        public async Task<IActionResult> Remove(int id)
         {
             await _productApiService.RemoveAsync(id);
             return RedirectToAction(nameof(Index));
         }
-
     }
 }

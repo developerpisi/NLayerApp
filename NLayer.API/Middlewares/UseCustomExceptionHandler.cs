@@ -23,9 +23,11 @@ public static class UseCustomExceptionHandler
                         _ => 500
                     };
                     context.Response.StatusCode = statusCode;
-                    var response = CustomResponseDto<NoContentResult>.Fail(statusCode, exceptionFeature.Error.Message);
-                    await context.Response.WriteAsync(JsonSerializer.Serialize(response));
-
+                    if (exceptionFeature?.Error.Message != null)
+                    {
+                        var response = CustomResponseDto<NoContentResult>.Fail(statusCode, exceptionFeature?.Error.Message);
+                        await context.Response.WriteAsync(JsonSerializer.Serialize(response));
+                    }
                 });
             }
 

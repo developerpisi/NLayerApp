@@ -1,14 +1,13 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using FluentValidation.AspNetCore;
-using Microsoft.EntityFrameworkCore;
-using NLayer.Core.Services;
 using NLayer.Repository;
 using NLayer.Service.Mapping;
+using NLayer.Web;
 using NLayer.Web.Modules;
 using NLayer.Web.Services;
+using Microsoft.EntityFrameworkCore;
 using NLayer.Service.Validation;
-using NLayer.Web;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,34 +25,33 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     )
 );
 
-// Register HttpClients
 builder.Services.AddHttpClient<ProductApiService>(opt =>
 {
+
     opt.BaseAddress = new Uri(builder.Configuration["BaseUrl"]);
+
 });
 builder.Services.AddHttpClient<CategoryApiService>(opt =>
 {
+
     opt.BaseAddress = new Uri(builder.Configuration["BaseUrl"]);
+
 });
 
-// Register scoped services
+
 builder.Services.AddScoped(typeof(NotFoundFilter<>));
 
-// Configure Autofac
-builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
-builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
-{
-    containerBuilder.RegisterModule(new RepoServiceModule());
-    containerBuilder.RegisterType<ProductApiService>().As<IProductService>().InstancePerLifetimeScope();
-    containerBuilder.RegisterType<CategoryApiService>().As<ICategoryService>().InstancePerLifetimeScope();
-});
-
+builder.Host.UseServiceProviderFactory
+    (new AutofacServiceProviderFactory());
+builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder => containerBuilder.RegisterModule(new RepoServiceModule()));
 var app = builder.Build();
 
+app.UseExceptionHandler("/Home/Error");
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
+  
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
