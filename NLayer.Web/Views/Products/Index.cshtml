@@ -1,11 +1,11 @@
-﻿@{
+﻿@model List<NLayer.Core.DTOs.ProductWithCategoryDto>
+
+@{
     ViewData["Title"] = "Index";
 }
-@using Microsoft.AspNetCore.Mvc.TagHelpers
-@model List<NLayer.Core.DTOs.ProductWithCategoryDto>
 
 <form method="post" action="https://localhost:7036/api/products">
-    <a asp-controller="Products" asp-action="Index">Products</a>
+    <a class="btn btn-primary" asp-controller="Products" asp-action="Index">Products</a>
     <a class="btn btn-primary" asp-controller="Products" asp-action="Save">Save Product</a>
 </form>
 
@@ -32,11 +32,8 @@
                 <td>@item.Category.Name</td>
                 <td>@item.CreatedDate</td>
                 <td>
-                    <!-- Update işlemi için yönlendirme, API'ye PUT isteği gönderecek -->
-                    <a class="btn btn-warning" href="https://localhost:7036/api/products/@item.Id" method="PUT">Update</a>
-                    
-                    <!-- Delete işlemi için yönlendirme, API'ye DELETE isteği gönderecek -->
-                    <a class="btn btn-danger" href="https://localhost:7036/api/products/@item.Id" method="DELETE">Delete</a>
+                    <a class="btn btn-warning" asp-controller="Products" asp-action="Update" asp-route-id="@item.Id">Update</a>
+                    <a class="btn btn-danger" asp-controller="Products" asp-action="Remove" asp-route-id="@item.Id">Delete</a>
                 </td>
             </tr>
         }
